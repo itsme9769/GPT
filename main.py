@@ -26,6 +26,7 @@ async def generate_response(message: Message):
         "top_p": 0.95,
         "frequency_penalty": 0,
         "presence_penalty": 0,
+        "max_tokens": 15000,
         "stop": None
     }
     
